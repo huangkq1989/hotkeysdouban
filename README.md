@@ -7,8 +7,7 @@ By using `global hotkey`, means you can manipulate the client without having
 to make the client window focus, I think it is definitely convenient when you 
 are working.  
 
-Anyway, it's a toy written by `Golang` during I learn `Golang`. :)
-
+Anyway, it's a toy written by `Golang` during I learn `Golang`. :-)
 
 ### How to use it
 + Download mpg123 player and unzip it to some directory  
@@ -18,8 +17,7 @@ Anyway, it's a toy written by `Golang` during I learn `Golang`. :)
     - `MPG123_DIR` means the directory of `mpg123` you have downloaded and
     unzip, `mpg123.exe` must be in the top directory of `MPG123_DIR`
     
-+ See usage by typing `ctrl+shift+F9` after click `douban.exe`
-
++ See usage by typing `ctrl+shift+F9` after click `hotkeysdouban.exe`
 
 ### How to build  
 + Build with an icon  
@@ -31,6 +29,5 @@ Anyway, it's a toy written by `Golang` during I learn `Golang`. :)
 
     go build
 
-
 ### Thanks
-Have a nice day. : )
+Have a nice day. :-)
