@@ -1,8 +1,8 @@
 Readme
 =======
-This is a console douban client for windows, the most difference from others is 
-that it supports `global hotkey`, which is cool for people who enjoy keyboard 
-(like me, a vim fans).  
+This is a console [douban](http://douban.fm/) client for windows, the most 
+difference from others is that it supports `global hotkey`, which is cool for 
+people who enjoy operating computer by keyboard (like me, a vim fans).  
 By using `global hotkey`, means you can manipulate the client without having 
 to make the client window focus, I think it is definitely convenient when you 
 are working.  
