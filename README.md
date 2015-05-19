@@ -23,12 +23,12 @@ some directory
 ### How to build  
 + Build with an icon  
 
-    rsrc -manifest hotkeysdouban.exe.manifest -ico hotkeysdouban.ico -o rsrc.syso  
-    go build
+        rsrc -manifest hotkeysdouban.exe.manifest -ico hotkeysdouban.ico -o rsrc.syso  
+        go build
 
 + Or Build it only without an icon
 
-    go build
+        go build
 
 ### Thanks
 Have a nice day. :-)
