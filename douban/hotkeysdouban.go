@@ -183,7 +183,7 @@ func (loop *MainLoop) registerHotKeyProcessor() {
 func (loop *MainLoop) Start() {
 
 	if !loop.initConfig(CONFIG_FILE) || !loop.registerHotKey() {
-		fmt.Print("Press 'Enter' to exit...")
+		fmt.Println("Press 'Enter' to exit...")
 		bufio.NewReader(os.Stdin).ReadBytes('\n')
 		return
 	}
@@ -220,7 +220,6 @@ EXIT:
 			fmt.Println("===============================================================================")
 			loop.currentSongId = songList[i].SongId
 			if !PlaySongByMPG123(songList[i].Url, &loop.cmd) {
-				fmt.Println("Please make sure mpg123 has installed and `MPG123_DIR` in config.cfg has been set correctly, press 'Enter' to exit...")
 				bufio.NewReader(os.Stdin).ReadBytes('\n')
 				return
 			}

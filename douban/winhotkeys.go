@@ -7,7 +7,7 @@ import "fmt"
 
 func RegisterHotKey(hotkeyNo int, mod int, key int) bool {
 	if rc := int(C.RegisterHotKey(nil, C.int(hotkeyNo), C.UINT(mod), C.UINT(key))); rc == 0 {
-		fmt.Printf("HotKey registered failed, maybe already register")
+		fmt.Println("HotKey registered failed, maybe already register")
 		return false
 	}
 	return true
