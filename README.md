@@ -10,7 +10,8 @@ are working.
 Anyway, it's a toy written by `Golang` during I learn `Golang`. :-)
 
 ### How to use it
-+ Download mpg123 player and unzip it to some directory  
++ Download [mpg123](http://www.mpg123.de/download.shtml) player and unzip it to 
+some directory  
 + Change config info in `config.cfg`  
     - `USER` means your accout in douban  
     - `PASSWD` means your password in douban  

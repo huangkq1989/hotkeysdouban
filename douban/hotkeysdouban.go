@@ -76,12 +76,12 @@ func (loop *MainLoop) initConfig(filename string) bool {
 	scanner := bufio.NewScanner(file)
 	for scanner.Scan() {
 		line := scanner.Text()
+		if line[0] == '#' {
+			continue
+		}
 		data := strings.Split(line, "=")
 		key := strings.Trim(data[0], " ")
 		value := strings.Trim(data[1], " ")
-		if key[0] == '#' {
-			continue
-		}
 		loop.config[key] = value
 	}
 
