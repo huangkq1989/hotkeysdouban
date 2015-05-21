@@ -127,8 +127,8 @@ func (loop *MainLoop) registerHotKeyProcessor() {
 		fmt.Println(">>>Play next song")
 	}
 	loop.hotKeyProcessor[NEXT_AND_BYE_SONG] = func() {
-		loop.douban.ByeSong(loop.currentChannelId, loop.currentSongId)
 		loop.cmd.Process.Kill()
+		loop.douban.ByeSong(loop.currentChannelId, loop.currentSongId)
 		fmt.Println(">>>Play next song and bye this song")
 	}
 	loop.hotKeyProcessor[RATE_SONG] = func() {
